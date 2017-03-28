@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../static/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MKT Data Main</title>
+</head>
+<body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../static/js/materialize.min.js"></script>
+
+    <ul id = "dropdown-admin" class="dropdown-content">
+        <li><a href="push_list">Push List</a></li>
+        <li><a href="push_search">Push Index</a></li>
+    </ul>
+    <ul id = "dropdown-client" class="dropdown-content">
+        <li><a href="push_client">Yesterday</a></li>
+        <li><a href="push_client_weekly">Last Week</a></li>
+        <li><a href="push_client_monthly">Last Month</a></li>
+    </ul>
+    <nav class="red darken-4">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Lezhin MKT</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown-admin">Admin Push<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown-client">Client Push<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h5 class="center-align">Data Main</h5>
+    </div>
+</body>
+</html>
