@@ -12,3 +12,8 @@ def home():
 @app.route('/index', methods=['GET'])
 def index():
     return render_template('index.html')
+
+
+@app.route('/moon', methods=['GET'])
+def moon():
+    return render_template('moon.html')
